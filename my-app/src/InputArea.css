@@ -1,0 +1,26 @@
+/* InputArea.css */
+.input-area {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .emoji-button,
+  .attachment-button,
+  .camera-button,
+  .send-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+  .message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin: 0 10px;
+  }
+  
